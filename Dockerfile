@@ -1,0 +1,29 @@
+# Use a specific version of Ubuntu with Python 3
+FROM ubuntu:20.04
+
+# Prevent interactive prompts during package installation
+ARG DEBIAN_FRONTEND=noninteractive
+
+# Update package list and install dependencies
+RUN apt-get update && \
+    apt-get install -y python3-pip python3-dev && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the application files to the working directory
+COPY . .
+
+# Install Python dependencies
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+# Run the training script to train the model and save artifacts
+RUN python3 src/pipelines/training_pipeline.py
+
+# Make port 8501 available to the world outside this container
+EXPOSE 8501
+
+# Command to run the application
+CMD ["streamlit", "run", "app.py"]
