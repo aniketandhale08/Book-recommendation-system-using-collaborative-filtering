@@ -37,6 +37,34 @@ The project follows these steps:
 3. **Model Building**: Train multiple models and select the best based on performance metrics.
 4. **Deployment**: Deploy the model using Docker, GitHub Actions for CI/CD, and Azure Web App.
 
+## Running Locally
+
+1. **Clone the GitHub repository:**
+```
+git clone https://github.com/aniketandhale08/Book-recommendation-system-using-collaborative-filtering
+```
+
+2. **Change to the project directory:**
+```
+cd book-recommendation-system-using-collaborative-filtering
+``` 
+
+3. **Create a virtual environment:**
+```
+python3 -m venv venv
+source venv/bin/activate  #For MacOS/Linux
+``` 
+
+4. **Install the necessary libraries:**
+```
+pip install -r requirements.txt
+``` 
+
+5. **Run the application locally:**
+```
+streamlit run app.py
+``` 
+
 ## Conclusion
 This project developed a book recommendation system using collaborative filtering, aiming to personalize book suggestions and enhance the reading experience. The system handles data preprocessing, model training, and deployment effectively. Future improvements include refining personalization algorithms and enhancing data quality.
 
