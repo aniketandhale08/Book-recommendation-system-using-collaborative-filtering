@@ -1,9 +1,3 @@
-'''
-Author: Saurabh Bhardwaj
-Email: aryan.saurabhbhardwaj@gmail.com
-Date: 19 Jan 2024
-'''
-
 import streamlit as st
 from src.logger import logging
 from src.utils import load_object
