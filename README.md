@@ -41,7 +41,7 @@ The project follows these steps:
 
 1. **Clone the GitHub repository:**
 ```
-git clone https://github.com/aniketandhale08/Book-recommendation-system-using-collaborative-filtering
+git clone https://github.com/aniketandhale08/Book-recommendation-system-using-collaborative-filtering.git
 ```
 
 2. **Change to the project directory:**
