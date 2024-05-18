@@ -2,6 +2,8 @@
 ## Introduction
 This project is a book recommendation system that uses collaborative filtering to suggest books based on user preferences. It includes data processing, model training, and deployment with Docker, GitHub Actions, and Azure Web App. The goal is to help users find books they will enjoy.
 
+![Designer](https://github.com/aniketandhale08/Book-recommendation-system-using-collaborative-filtering/assets/99685171/b8142068-6eac-410b-a8c7-6314a9eeaf41)
+
 ## Problem Statement
 Readers face an overwhelming number of book choices, making it hard to find titles that match their interests. Traditional browsing is time-consuming and often doesn't cater to individual tastes. There is a need for a personalized and efficient method to discover books.
 
