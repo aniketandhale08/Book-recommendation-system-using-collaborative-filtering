@@ -63,7 +63,21 @@ pip install -r requirements.txt
 5. **Run the application locally:**
 ```
 streamlit run app.py
+```
+
+## To build using dockers
+
+**Prerequisites:** Ensure Docker is installed on the user's system. Docker is available for Windows, macOS, and Linux. Users can download it from Docker's official website. Steps to Run the Project Using Docker
+
+**Pull the Docker Image**
 ``` 
+docker pull aniketandhale08/book-recommendation-system:myfirstimagepush
+``` 
+
+**Run the Docker Container**
+``` 
+docker run -p localport:containerport aniketandhale08/book-recommendation-system:tagname
+```
 
 ## Conclusion
 This project developed a book recommendation system using collaborative filtering, aiming to personalize book suggestions and enhance the reading experience. The system handles data preprocessing, model training, and deployment effectively. Future improvements include refining personalization algorithms and enhancing data quality.
