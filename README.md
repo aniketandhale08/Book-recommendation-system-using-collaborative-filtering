@@ -82,10 +82,3 @@ docker run -p localport:containerport aniketandhale08/book-recommendation-system
 ## Conclusion
 This project developed a book recommendation system using collaborative filtering, aiming to personalize book suggestions and enhance the reading experience. The system handles data preprocessing, model training, and deployment effectively. Future improvements include refining personalization algorithms and enhancing data quality.
 
-## 12. Licence, Author, & Acknowledgement
-
-[MIT Licence](LICENSE)
-
-**Author:** Aniket Andhale
-
-**Contact:** [LinkedIn](https://www.linkedin.com/in/aniketandhale08/)
