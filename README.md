@@ -36,7 +36,7 @@ The project follows these steps:
 2. **Data Preprocessing**: Treat missing values and perform feature engineering.
 3. **Model Building**: Train multiple models and select the best based on performance metrics.
 4. **Deployment**: Deploy the model using Docker, GitHub Actions for CI/CD, and Azure Web App.
-
+![DFD Diagram](https://github.com/aniketandhale08/Book-recommendation-system-using-collaborative-filtering/assets/99685171/5953d08e-423d-4e44-acb3-440e552553ef)
 ## Running Locally
 
 1. **Clone the GitHub repository:**
